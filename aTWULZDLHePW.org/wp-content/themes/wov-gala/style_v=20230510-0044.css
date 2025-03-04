@@ -1,0 +1,118 @@
+/*
+	Theme Name: Ms. Foundation’s Women of Vision Awards
+	Theme URI: https://aTWULZDLHePW.org/
+	Description: The theme for WordPress. Designed with LOVE by DigitalDesign.NYC
+	Author: digitaldesignnyc.co
+	Version: 1.a
+*/
+
+.faces-button.mmobile { display:none; }
+
+@media screen and (max-width:1023.98px){
+	
+	.faces-button.mfull { display:none; }
+	
+	.faces-button.mmobile { display:block; }
+	
+}
+
+.carousel-dots li:nth-child(4)::before { content:'FOUNDING MOTHERS'!important; }
+
+.carousel-dots li:nth-child(4) button { opacity:0!important; }
+
+.description-adress-time {
+	font-family: 'Marcellus', sans-serif;
+	position: absolute;
+    left: 0px;
+    top: 78px;
+}
+
+.description-adress-time b {
+	display:block;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24.2px;
+	line-height: 30px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding:20px 0 30px 0;
+	position:relative;
+}
+
+.description-adress-time b p {
+	position:relative;
+	z-index:3;
+}
+
+.description-adress-time ul li {
+	display:block;
+	list-style:none;	
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: right;
+	letter-spacing: 0.615em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	position:relative;
+}
+
+.description-adress-time ul li::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	background: #181716;
+	opacity: 0.8;
+	filter: blur(10px);
+}
+
+.description-adress-time ul li p {
+	position:relative;
+	z-index:3;
+	display:flex;
+	align-items: center;
+}
+
+.description-adress-time ul li i {
+	display:block;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 23px;
+	text-align: right;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #C49A6C;
+	margin-right:5px;
+}
+
+@media screen and (max-width:1023.98px){
+	
+	.description-adress-time ul li {
+		font-size:10px;
+		line-height:12px;
+	}
+	
+	.description-adress-time ul li i {
+		font-size: 14px;
+  	  	line-height: 17px;
+	}
+	
+	.description-adress-time b {
+		font-size: 18.2px;
+    	line-height: 20px;
+    	padding: 15px 0 15px 0;
+   	 	margin: 20px 0 0 0;	
+	}
+	
+	.description-adress-time {
+		top: auto;
+  	  	bottom: 280px;
+	}
+}
